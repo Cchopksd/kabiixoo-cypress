@@ -7,5 +7,11 @@ module.exports = defineConfig({
       // implement node event listeners here
 
     },
+    env: {
+      user_id: "user1",
+      user_password: "user1",
+      admin_id: "admin",
+      admin_password: "admin123",
+    }
   },
 });
